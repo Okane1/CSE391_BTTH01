@@ -1,0 +1,18 @@
+nav {
+    background-color: aqua;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: red;
+}
