@@ -1,18 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+logo {
+    width: 200px;
+}
+
 nav {
-    background-color: aqua;
+    background-color: burlywood;
 }
 
-ul {
+nav ul {
     list-style: none;
-    display: inline-flex;
+    display: flex;
+    gap: 20px;
 }
 
-ul li {
-    margin-right: 10px;
+nav ul li {
+    padding: 10px;
 }
 
-ul li a {
+nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: red;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    transition: all 0.5s;
+}
+
+nav ul li a.hover {
+    color: orange;
+}
+
+.khacbiett {
+    border: 1px solid orange;
+    border-radius: 38px;
+    padding: 5px 15px;
+    background-color: orange;
+    color: #FFF;
 }
